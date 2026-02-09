@@ -1,0 +1,10 @@
+[
+  { "name": "inode_set_mtime_to_ts", "reporting": "return_value" },
+  { "name": "inode_set_mtime", "reporting": "return_value" },
+  { "name": "inode_set_atime_to_ts", "reporting": "return_value" },
+  { "name": "inode_set_atime", "reporting": "return_value" },
+  { "name": "inode_set_ctime_current", "reporting": "return_value" },
+  { "name": "inode_set_ctime_deleg", "reporting": "return_value" },
+  { "name": "inode_set_ctime_to_ts", "reporting": "return_value" },
+  { "name": "inode_set_ctime", "reporting": "return_value" }
+]
