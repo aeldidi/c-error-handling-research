@@ -12,7 +12,7 @@ build/analyze-error-handling: $(TOOL_SRCS) | build
 out/%.db: experiments/%/experiment.toml \
           experiments/%/notable.json \
           experiments/%/benign.json \
-          $(BINARY)
+          build/analyze-error-handlling
 	python analyze.py experiments/$*
 
 SCHEMA := schema.sql
